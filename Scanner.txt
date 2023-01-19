@@ -1,0 +1,15 @@
+import java.util.*;
+class Scanner
+{
+public static void main(String args[]) throws IOException
+
+{
+Scanner sc=new Scanner(System.in));
+System.out.println("Enter String");
+String s=sc.nextLine();
+System.out.println(" String is "+s);
+}
+
+}
+
+
