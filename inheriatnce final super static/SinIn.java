@@ -69,7 +69,10 @@ public void eat(){System.out.println("Aniaml EATS");}
 }
 class Cat extends Animal
 {
-public Cat(){super();System.out.println("Cat cons");}
+public Cat()
+{
+super();
+System.out.println("Cat cons");}
 public void eat()
  { 
  System.out.println("Cat EATS");}

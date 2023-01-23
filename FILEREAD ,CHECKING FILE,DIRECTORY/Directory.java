@@ -10,7 +10,6 @@ public static void main(String args[])
 {
 try
 {
-	
 File f=new File("ff");
 boolean s=f.mkdir();
 if(s)
@@ -121,9 +120,8 @@ try{
 				System.out.println("File"+A);
 				}
 		else
-		{
-			System.out.println("Dirctory"+A);
-	    }
+		{System.out.println("Dirctory"+A);
+	}
 			listall(A.getPath());
 				
         }
@@ -136,7 +134,7 @@ try{
 
 public static void main(String args[])
 {
-	listall("E://javad");
+	listall("packs");
 }
 }
 
